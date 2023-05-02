@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-// Import and configuring Amplify
+// Importing and configuring Amplify
 import {Amplify} from 'aws-amplify';
 import config from './aws-exports';
 Amplify.configure(config);
 
-import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -17,6 +17,12 @@
       },
       "auth": {
         "reactamplifiedae9e3d97": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2zc2x4oaua3ho",
+          "type": "manual"
+        }
       }
     }
   }
